@@ -19,7 +19,7 @@
     </div>
     <div style="position: relative" class="margin">
       <img id="inputImg" src="" style="max-width: 800px;" />
-      <canvas id="overlay" />
+      <canvas id="overlay"/>
     </div>
 
     <div class="row side-by-side">
@@ -33,7 +33,7 @@
         class="waves-effect waves-light btn"
         onclick="loadImageFromUrl()"
       >
-        Ok
+        proceed
       </button>
       <input id="queryImgUploadInput" type="file" class="waves-effect btn bold" onchange="loadImageFromUpload()" accept=".jpg, .jpeg, .png">
       <!-- image_selection_control -->
@@ -45,7 +45,7 @@
       <div id="face_detector_selection_control" class="row input-field" style="margin-right: 20px;">
         <select id="selectFaceDetector">
           <option value="ssd_mobilenetv1">SSD Mobilenet V1</option>
-          <option value="tiny_face_detector">Tiny Face Detector</option>
+          <option value="tiny_face_detector"> Face Detector</option>
         </select>
         <label>Select Face Detector</label>
       </div>

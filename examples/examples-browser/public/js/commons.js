@@ -26,63 +26,63 @@ function renderNavBar(navbarId, exampleUri) {
   const examples = [
     {
       uri: 'face_detection',
-      name: 'Face Detection'
+      name: 'Face Detection by ADARSH'
     },
     {
       uri: 'face_landmark_detection',
-      name: 'Face Landmark Detection'
+      name: 'Face Landmark Detection BY ADARSH'
     },
     {
       uri: 'face_expression_recognition',
-      name: 'Face Expression Recognition'
+      name: 'Face Expression Recognition BY ADARSH'
     },
     {
       uri: 'age_and_gender_recognition',
-      name: 'Age and Gender Recognition'
+      name: 'Age and Gender Recognition BY ADARSH'
     },
     {
       uri: 'face_recognition',
-      name: 'Face Recognition'
+      name: 'Face Recognition BY ADARSHA '
     },
     {
       uri: 'face_extraction',
-      name: 'Face Extraction'
+      name: 'Face Extraction ADARSH'
     },
     {
       uri: 'video_face_tracking',
-      name: 'Video Face Tracking'
+      name: 'Video Face Tracking ADARSHA'
     },
     {
       uri: 'webcam_face_detection',
-      name: 'Webcam Face Detection'
+      name: 'Webcam Face Detection ADARSHA'
     },
     {
       uri: 'webcam_face_landmark_detection',
-      name: 'Webcam Face Landmark Detection'
+      name: 'Webcam Face Landmark Detection ADARSHA'
     },
     {
       uri: 'webcam_face_expression_recognition',
-      name: 'Webcam Face Expression Recognition'
+      name: 'Webcam Face Expression Recognition ADARSHA'
     },
     {
       uri: 'webcam_age_and_gender_recognition',
-      name: 'Webcam Age and Gender Recognition'
+      name: 'Webcam Age and Gender Recognition ADARSHA'
     },
     {
       uri: 'bbt_face_landmark_detection',
-      name: 'BBT Face Landmark Detection'
+      name: 'BBT Face Landmark Detection ADARSHA'
     },
     {
       uri: 'bbt_face_similarity',
-      name: 'BBT Face Similarity'
+      name: 'BBT Face Similarity ADARSHA'
     },
     {
       uri: 'bbt_face_matching',
-      name: 'BBT Face Matching'
+      name: 'BBT Face Matching ADARSHA '
     },
     {
       uri: 'bbt_face_recognition',
-      name: 'BBT Face Recognition'
+      name: 'BBT Face Recognition ADARSHA'
     },
     {
       uri: 'batch_face_landmarks',
@@ -119,9 +119,10 @@ function renderNavBar(navbarId, exampleUri) {
   const githubLink = document.createElement('a')
   githubLink.classList.add('waves-effect', 'waves-light', 'side-by-side')
   githubLink.id = 'github-link'
-  githubLink.href = 'https://github.com/justadudewhohacks/face-api.js'
+  githubLink.href = 'https://github.com/AdarshaHalder/MSENGAGE2022'
   const h5 = document.createElement('h5')
-  h5.innerHTML = 'face-api.js'
+  h5.innerHTML = 'ADARSHA SECURITIES'
+  
   githubLink.appendChild(h5)
   const githubLinkIcon = document.createElement('img')
   githubLinkIcon.src = 'github_link_icon.png'
@@ -133,7 +134,7 @@ function renderNavBar(navbarId, exampleUri) {
     .forEach(ex => {
       const li = document.createElement('li')
       if (ex.uri === exampleUri) {
-        li.style.background='#b0b0b0'
+        li.style.background='#red'
       }
       const a = document.createElement('a')
       a.classList.add('waves-effect', 'waves-light', 'pad-sides-sm')
@@ -145,10 +146,12 @@ function renderNavBar(navbarId, exampleUri) {
       li.appendChild(a)
       menuContent.appendChild(li)
     })
-
+    // document.renderNavBar.style.backgroundColor = "#E6E6FA";
   $('.button-collapse').sideNav({
-    menuWidth: 260
+    menuWidth: 230
+    
   })
+  document.body.style.backgroundColor = "#E6E6FA";
 }
 
 function renderSelectList(selectListId, onChange, initialValue, renderChildren) {
